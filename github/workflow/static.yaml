@@ -2,12 +2,12 @@ name: Deploy static content to Pages
 
 on: 
   push:
-  branches: ["main"]
+    branches: ["main"]
 
   workflow_dispatch:
 
 
-persmissions:
+permissions:
   contents: red
   pages: write
   id-token: write
